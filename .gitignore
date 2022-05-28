@@ -1,0 +1,4 @@
+/.idea
+app/composer.phar
+app/.phpunit.result.cache
+app/vendor/

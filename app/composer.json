@@ -1,0 +1,30 @@
+{
+  "name": "sakharov/supplier-data-manager",
+  "description": "Менеджер обработки фидов от поставщиков",
+  "type": "library",
+  "keywords": [],
+  "autoload": {
+    "psr-4": {
+      "Sakharov\\SupplierDataManager\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sakharov\\test\\SupplierDataManager\\": "test"
+    }
+  },
+  "scripts": {
+    "test:phpunit": [
+      "php vendor/bin/phpunit ./test"
+    ]
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2",
+    "jms/serializer": "3.12.2",
+    "ext-dom": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "ext-xmlreader": "*"
+  }
+}
