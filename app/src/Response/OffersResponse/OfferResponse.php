@@ -108,7 +108,7 @@ class OfferResponse implements OfferResponseInterface
 
     public function images(): array
     {
-        return $this->images();
+        return $this->images;
     }
 
     /**
